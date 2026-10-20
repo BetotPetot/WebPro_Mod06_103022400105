@@ -1,6 +1,6 @@
-function LabelHarga ({nilai}) {
+function LabelHarga ({nilai, child}) {
     return (
-        <p>Rp {nilai}</p>
+        <div><p>Rp {nilai}</p>{child}</div>
     );
         
 }
